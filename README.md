@@ -22,4 +22,5 @@ Golang (see https://golang.org/doc/install to install)
 
 ## Learn more ##
 
-See https://www.golang-book.com/books/intro/12
+- https://www.golang-book.com/books/intro/12
+- https://www.youtube.com/watch?v=ndmB0bj7eyw
