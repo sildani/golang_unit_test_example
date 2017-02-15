@@ -2,9 +2,9 @@ package main
 
 import (
   "fmt"
-  "silvanolte.com/string"
+  "silvanolte.com/mystring"
 )
 
 func main() {
-  fmt.Println(string.Reverse("hello, world"))
+  fmt.Println(mystring.Reverse("hello, world"))
 }
