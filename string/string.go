@@ -1,4 +1,4 @@
-package mystring // "silvanolte.com/unit_test_example/mystring"
+package string // "github.com/sildani/unit_test_example/string"
 
 func Reverse(s string) string {
   b := []rune(s)

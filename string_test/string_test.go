@@ -1,13 +1,13 @@
-package mystring
+package string_test // "github.com/sildani/unit_test_example/string_test"
 
 import (
   "testing"
-  "silvanolte.com/unit_test_example/mystring"
+  utestring "github.com/sildani/unit_test_example/string"
 )
 
 func TestReverse(t *testing.T) {
   input := "hello"
-  output := mystring.Reverse(input)
+  output := utestring.Reverse(input)
   expected := "olleh"
   if output != expected {
     t.Errorf("Reverse(%q) == %q but expected %q", input, output, expected)
@@ -24,7 +24,7 @@ func TestReverseUsingTable(t *testing.T) {
   }
 
   for _, test := range tests {
-    output := mystring.Reverse(test.input)
+    output := utestring.Reverse(test.input)
     if output != test.expected {
       t.Errorf("Reverse(%q) == %q but expected %q", test.input, output, test.expected)
     }

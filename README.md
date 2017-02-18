@@ -8,10 +8,10 @@ Golang (see https://golang.org/doc/install to install)
 
 ## How to run the unit tests ##
 
-1. Clone this project into `$GOPATH/src/silvanolte.com/unit_test_example`.
-1. Run `cd $GOPATH/src/silvanolte.com/unit_test_example/mystring`
+1. Clone this project into `$GOPATH/src/github.com/sildani/unit_test_example`.
+1. Run `cd $GOPATH/src/github.com/sildani/unit_test_example/mystring`
 1. While in the mystring directory, run `go install` to build and install the mystring library. This will create a compiled module to test. The location will be in the `$GOPATH/pkg` directory.
-1. Run `cd $GOPATH/src/silvanolte.com/unit_test_example/mystring_test`
+1. Run `cd $GOPATH/src/github.com/sildani/unit_test_example/mystring_test`
 1. Run `go test` to run the unit tests.
 
 ### Notes about the unit tests ###
@@ -21,7 +21,7 @@ Golang (see https://golang.org/doc/install to install)
 
 ## How to run a program that uses the library ##
 
-1. Run `cd $GOPATH/src/silvanolte.com/unit_test_example/hello`
+1. Run `cd $GOPATH/src/github.com/sildani/unit_test_example/hello`
 1. While in the hello directory, run `go install` to build and install the hello program. This will create a compiled executable binary. The location will be in the `$GOPATH/bin` directory.
 1. Run `$GOPATH/bin/hello` to execute the program.
 
