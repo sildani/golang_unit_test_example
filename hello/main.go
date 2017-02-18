@@ -2,7 +2,7 @@ package main
 
 import (
   "fmt"
-  utestring "github.com/sildani/unit_test_example/string"
+  utestring "github.com/sildani/golang_unit_test_example/string"
 )
 
 func main() {

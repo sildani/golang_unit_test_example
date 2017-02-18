@@ -1,4 +1,4 @@
-package string // "github.com/sildani/unit_test_example/string"
+package string // "github.com/sildani/golang_unit_test_example/string"
 
 func Reverse(s string) string {
   b := []rune(s)

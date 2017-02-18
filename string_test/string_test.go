@@ -1,8 +1,8 @@
-package string_test // "github.com/sildani/unit_test_example/string_test"
+package string_test // "github.com/sildani/golang_unit_test_example/string_test"
 
 import (
   "testing"
-  utestring "github.com/sildani/unit_test_example/string"
+  utestring "github.com/sildani/golang_unit_test_example/string"
 )
 
 func TestReverse(t *testing.T) {
